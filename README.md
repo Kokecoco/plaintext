@@ -28,16 +28,16 @@
 
 ## Usage
 
-To run a `plaintext` program, simply pass a `.txt` file as an argument:
+To run a `cat` program, simply pass a `.txt` file as an argument:
 
 ```bash
-plaintext my_program.txt
+cat my_program.txt
 ```
 
 Example:
 
 ```bash
-plaintext examples/hello_world.txt
+cat examples/hello_world.txt
 ```
 
 This will output the contents of the `hello_world.txt` file.
@@ -52,26 +52,10 @@ Create a file called `hello_world.txt` with the following content:
 Hello, World!
 ```
 
-Then, run it using `plaintext`:
+Then, run it using `cat`:
 
 ```bash
-plaintext hello_world.txt
-```
-
-### FizzBuzz (in plaintext style)
-
-Create a file called `fizzbuzz.txt` with some humorous take on FizzBuzz:
-
-```plaintext
-Fizz
-Buzz
-FizzBuzz
-```
-
-Run it:
-
-```bash
-plaintext fizzbuzz.txt
+cat hello_world.txt
 ```
 
 ## Standard Library
