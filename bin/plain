@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# 引数で渡されたファイルをcatで表示
+if [ -f "$1" ]; then
+  cat "$1"
+else
+  echo "File not found: $1"
+  exit 1
+fi
+
