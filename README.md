@@ -16,7 +16,7 @@
 1. Clone the repository and navigate to the project directory:
 
    ```bash
-   git clone https://github.com/your-username/plaintext.git
+   git clone https://github.com/Kokecoco/plaintext.git
    cd plaintext
    ```
 
@@ -24,11 +24,6 @@
 
    ```bash
    sudo ./scripts/install.sh
-   ```
-
-3. Verify the installation:
-   ```bash
-   plaintext --version
    ```
 
 ## Usage
